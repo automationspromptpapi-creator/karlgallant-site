@@ -52,7 +52,7 @@ export default function ProblemSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="font-[family-name:var(--font-space-grotesk)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
+            className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
           >
             Your Business Runs on{" "}
             <span className="text-primary">Broken Systems</span>
@@ -86,7 +86,7 @@ export default function ProblemSection() {
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors duration-300">
                   <problem.icon className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-semibold mb-3">
+                <h3 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-3">
                   {problem.title}
                 </h3>
                 <p className="text-text-muted leading-relaxed">

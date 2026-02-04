@@ -26,7 +26,7 @@ export default function CTASection() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5 }}
-            className="font-[family-name:var(--font-space-grotesk)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
+            className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
           >
             Ready to Fix Your{" "}
             <span className="gradient-text">Broken Systems?</span>
@@ -60,7 +60,7 @@ export default function CTASection() {
                 <div className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center mb-6">
                   <Calendar className="w-6 h-6" />
                 </div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-semibold mb-2">
+                <h3 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-2">
                   Book a Discovery Call
                 </h3>
                 <p className="text-white/80 text-sm mb-6">
@@ -94,7 +94,7 @@ export default function CTASection() {
                 <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:bg-secondary/20 transition-colors">
                   <FileText className="w-6 h-6 text-secondary" />
                 </div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-semibold mb-2">
+                <h3 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-2">
                   Get the Systems Blueprint
                 </h3>
                 <p className="text-text-muted text-sm mb-6">

@@ -56,7 +56,7 @@ export default function SolutionSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="font-[family-name:var(--font-space-grotesk)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
+            className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
           >
             A Systems-First Approach to{" "}
             <span className="gradient-text">AI Automation</span>
@@ -93,7 +93,7 @@ export default function SolutionSection() {
                 {/* Content */}
                 <div className="flex-grow">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-3">
-                    <h3 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-semibold">
+                    <h3 className="font-[family-name:var(--font-heading)] text-2xl font-semibold">
                       {solution.title}
                     </h3>
                     <span className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium w-fit">

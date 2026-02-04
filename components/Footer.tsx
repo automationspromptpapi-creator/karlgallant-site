@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <a
               href="#"
-              className="inline-block font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight mb-4"
+              className="inline-block font-[family-name:var(--font-heading)] text-2xl font-bold tracking-tight mb-4"
             >
               <span className="text-text">Karl</span>
               <span className="gradient-text"> Gallant</span>
@@ -67,7 +67,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold mb-4">
+            <h4 className="font-[family-name:var(--font-heading)] font-semibold mb-4">
               Quick Links
             </h4>
             <ul className="space-y-3">
@@ -86,7 +86,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold mb-4">
+            <h4 className="font-[family-name:var(--font-heading)] font-semibold mb-4">
               Get In Touch
             </h4>
             <ul className="space-y-3 text-text-muted">
@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-text-muted text-sm">
-            &copy; {new Date().getFullYear()} Karl Gallant. All rights reserved.
+            &copy; 2025 Karl Gallant. All rights reserved.
           </p>
           <p className="text-text-muted text-sm">
             Transforming operations with intelligent systems.

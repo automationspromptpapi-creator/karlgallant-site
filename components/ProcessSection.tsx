@@ -58,7 +58,7 @@ export default function ProcessSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="font-[family-name:var(--font-space-grotesk)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
+            className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
           >
             How the <span className="gradient-text">Systems Blueprint</span>{" "}
             Works
@@ -103,7 +103,7 @@ export default function ProcessSection() {
                   </div>
 
                   {/* Content */}
-                  <h3 className="font-[family-name:var(--font-space-grotesk)] text-xl font-semibold mb-3">
+                  <h3 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-3">
                     {step.title}
                   </h3>
                   <p className="text-text-muted leading-relaxed mb-4">
@@ -155,7 +155,7 @@ export default function ProcessSection() {
         >
           <div className="inline-flex flex-col items-center p-8 rounded-2xl bg-gradient-to-b from-primary/5 to-transparent border border-primary/20">
             <p className="text-text-muted mb-2">Investment</p>
-            <p className="font-[family-name:var(--font-space-grotesk)] text-4xl lg:text-5xl font-bold mb-2">
+            <p className="font-[family-name:var(--font-heading)] text-4xl lg:text-5xl font-bold mb-2">
               <span className="gradient-text">$150</span>
             </p>
             <p className="text-text-muted text-sm mb-6">

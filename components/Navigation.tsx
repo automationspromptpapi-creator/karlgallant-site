@@ -30,7 +30,7 @@ export default function Navigation() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/80 backdrop-blur-xl border-b border-border"
+          ? "bg-bg-deep/90 backdrop-blur-xl border-b border-border-subtle"
           : "bg-transparent"
       }`}
     >
@@ -39,9 +39,9 @@ export default function Navigation() {
           {/* Logo */}
           <a
             href="#"
-            className="font-[family-name:var(--font-space-grotesk)] text-xl lg:text-2xl font-bold tracking-tight"
+            className="font-[family-name:var(--font-heading)] text-xl lg:text-2xl font-bold tracking-tight"
           >
-            <span className="text-text">Karl</span>
+            <span className="text-text-primary">Karl</span>
             <span className="gradient-text"> Gallant</span>
           </a>
 
@@ -51,7 +51,7 @@ export default function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-text-muted hover:text-text transition-colors duration-200 text-sm font-medium"
+                className="text-text-secondary hover:text-text-primary transition-colors duration-200 text-sm font-medium"
               >
                 {link.label}
               </a>
@@ -73,7 +73,7 @@ export default function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-text-muted hover:text-text transition-colors"
+            className="md:hidden p-2 text-text-secondary hover:text-text-primary transition-colors"
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -89,7 +89,7 @@ export default function Navigation() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-surface/95 backdrop-blur-xl border-b border-border"
+            className="md:hidden bg-bg-surface/95 backdrop-blur-xl border-b border-border-subtle"
           >
             <div className="px-6 py-4 space-y-4">
               {navLinks.map((link) => (
@@ -97,7 +97,7 @@ export default function Navigation() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block text-text-muted hover:text-text transition-colors duration-200 text-base font-medium py-2"
+                  className="block text-text-secondary hover:text-text-primary transition-colors duration-200 text-base font-medium py-2"
                 >
                   {link.label}
                 </a>

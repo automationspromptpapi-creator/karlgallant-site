@@ -60,7 +60,7 @@ export default function CredibilitySection() {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="font-[family-name:var(--font-space-grotesk)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
+              className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"
             >
               Not Another{" "}
               <span className="text-primary">"AI Consultant"</span>
@@ -83,21 +83,6 @@ export default function CredibilitySection() {
               </p>
             </motion.div>
 
-            {/* Quote/testimonial placeholder */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-8 p-6 rounded-xl bg-surface border border-border"
-            >
-              <p className="text-text italic mb-4">
-                "The best automation is the one that solves your actual problem,
-                not the one that sounds impressive."
-              </p>
-              <p className="text-sm text-text-muted">
-                — My approach to every project
-              </p>
-            </motion.div>
           </div>
 
           {/* Right - Credentials grid */}
@@ -113,7 +98,7 @@ export default function CredibilitySection() {
                 <div className="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center mb-4 group-hover:bg-secondary/20 transition-colors">
                   <cred.icon className="w-5 h-5 text-secondary" />
                 </div>
-                <p className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold mb-1">
+                <p className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-1">
                   {cred.stat}
                 </p>
                 <p className="text-text-muted text-sm font-medium mb-2">
