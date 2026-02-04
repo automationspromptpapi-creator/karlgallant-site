@@ -9,38 +9,44 @@ npm run dev      # Start development server at localhost:3000
 npm run build    # Production build
 npm run lint     # Run ESLint
 npx vercel       # Deploy preview
-npx vercel --prod # Deploy to production
+npx vercel --prod --yes  # Deploy to production
 ```
 
 ## Architecture
 
-Single-page landing site for AI consulting business. Next.js 14 App Router with Tailwind CSS v4.
+Single-page landing site for Karl Gallant AI Consulting. Next.js 16 App Router with Tailwind CSS v4.
 
 **Page structure** (`app/page.tsx`): Navigation → Hero → Problem → Solution → Process → Credibility → CTA → Footer
 
 **Key components**:
-- `NetworkAnimation.tsx` - Canvas-based animated node network in hero (mouse-reactive parallax)
+- `NetworkAnimation.tsx` - Canvas-based animated node network in hero with coral-to-teal gradients (mouse-reactive parallax)
 - All section components use Framer Motion's `useInView` for scroll-triggered animations
 
 ## Design System
 
-Defined in `app/globals.css` using Tailwind v4's `@theme inline` syntax:
+OpenClaw-inspired dark theme. Defined in `app/globals.css` using Tailwind v4's `@theme inline` syntax:
 
+**Colors**:
 | Token | Value | Usage |
 |-------|-------|-------|
-| `--color-primary` | #6A4CFF | Purple accent, CTAs |
-| `--color-secondary` | #00D4FF | Cyan accent, highlights |
-| `--color-background` | #0A0A0F | Page background |
-| `--color-surface` | #12121A | Cards, elevated surfaces |
-| `--color-border` | #1E1E2E | Borders |
-| `--color-text-muted` | #8B8B9E | Secondary text |
+| `--color-primary` | #ff4d4d | Coral - buttons, CTAs, accents |
+| `--color-secondary` | #00e5cc | Teal/cyan - highlights, glows |
+| `--color-bg-deep` | #050810 | Darkest background |
+| `--color-bg-surface` | #0a0f1a | Cards, elevated surfaces |
+| `--color-bg-elevated` | #111827 | Higher elevation |
+| `--color-text-primary` | #f0f4ff | Main text |
+| `--color-text-secondary` | #8892b0 | Secondary text |
+| `--color-text-muted` | #5a6480 | Muted text |
 
-**Typography**: Space Grotesk (headlines via `font-[family-name:var(--font-space-grotesk)]`), DM Sans (body)
+**Typography** (via Fontshare CDN):
+- Headlines: Clash Display via `font-[family-name:var(--font-heading)]`
+- Body: Satoshi via `--font-body`
 
-**Utility classes**: `.gradient-text`, `.glow-primary`, `.glow-secondary`, `.grid-pattern`, `.dot-pattern`
+**Utility classes**: `.gradient-text` (teal), `.gradient-text-coral`, `.glow-primary`, `.glow-cyan`, `.glow-coral`, `.grid-pattern`, `.dot-pattern`
 
 ## External Links (Placeholders)
 
 - Cal.com booking: `https://cal.com/karlgallant`
 - Tally form: `https://tally.so/r/placeholder`
 - Email: `hello@karlgallant.com`
+- Production URL: `https://karlgallant-site.vercel.app`
