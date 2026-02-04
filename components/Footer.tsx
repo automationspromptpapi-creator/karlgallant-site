@@ -40,7 +40,7 @@ export default function Footer() {
               className="inline-block font-[family-name:var(--font-heading)] text-2xl font-bold tracking-tight mb-4"
             >
               <span className="text-text">Karl</span>
-              <span className="gradient-text"> Gallant</span>
+              <span className="gradient-text-coral"> Gallant</span>
             </a>
             <p className="text-text-muted max-w-sm mb-6">
               AI systems consulting for businesses ready to transform chaotic

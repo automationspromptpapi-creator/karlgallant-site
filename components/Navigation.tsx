@@ -42,7 +42,7 @@ export default function Navigation() {
             className="font-[family-name:var(--font-heading)] text-xl lg:text-2xl font-bold tracking-tight"
           >
             <span className="text-text-primary">Karl</span>
-            <span className="gradient-text"> Gallant</span>
+            <span className="gradient-text-coral"> Gallant</span>
           </a>
 
           {/* Desktop Navigation */}

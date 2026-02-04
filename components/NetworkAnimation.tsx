@@ -137,10 +137,10 @@ export default function NetworkAnimation() {
             const pulseIntensity =
               0.5 + 0.5 * Math.sin(time * 2.5 + nodes[i].pulsePhase);
 
-            // Purple (#6A4CFF) to Cyan (#00e5cc)
+            // Coral (#ff4d4d) to Cyan (#00e5cc)
             gradient.addColorStop(
               0,
-              `rgba(106, 76, 255, ${opacity * pulseIntensity})`
+              `rgba(255, 77, 77, ${opacity * pulseIntensity})`
             );
             gradient.addColorStop(
               1,
@@ -171,7 +171,7 @@ export default function NetworkAnimation() {
           node.y,
           radius * 6
         );
-        gradient.addColorStop(0, `rgba(106, 76, 255, ${0.35 * pulseIntensity})`);
+        gradient.addColorStop(0, `rgba(255, 77, 77, ${0.35 * pulseIntensity})`);
         gradient.addColorStop(0.4, `rgba(0, 229, 204, ${0.15 * pulseIntensity})`);
         gradient.addColorStop(1, "rgba(0, 229, 204, 0)");
 

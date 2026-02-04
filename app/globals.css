@@ -19,9 +19,9 @@
   --color-cyan-mid: #14b8a6;
   --color-cyan-glow: rgba(0, 229, 204, 0.4);
 
-  /* Brand purple */
-  --color-primary: #6A4CFF;
-  --color-primary-glow: rgba(106, 76, 255, 0.4);
+  /* Primary - Coral */
+  --color-primary: #ff4d4d;
+  --color-primary-glow: rgba(255, 77, 77, 0.4);
 
   /* Text */
   --color-text-primary: #f0f4ff;
@@ -77,13 +77,13 @@ body {
 
 /* Selection */
 ::selection {
-  background: rgba(106, 76, 255, 0.4);
+  background: rgba(255, 77, 77, 0.4);
   color: white;
 }
 
-/* Gradient text utility */
+/* Gradient text utility - teal for headlines */
 .gradient-text {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-cyan-bright) 100%);
+  background: linear-gradient(135deg, var(--color-cyan-bright) 0%, var(--color-cyan-mid) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
