@@ -12,7 +12,7 @@ export default function CTASection() {
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-surface to-background">
+      <div className="absolute inset-0 bg-gradient-to-b from-bg-deep via-bg-surface to-bg-deep">
         <div className="absolute inset-0 grid-pattern opacity-20" />
         <div className="absolute top-1/2 left-1/2 w-[800px] h-[800px] -translate-x-1/2 -translate-y-1/2">
           <div className="absolute inset-0 bg-primary/10 rounded-full blur-[128px]" />
@@ -85,7 +85,7 @@ export default function CTASection() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="group relative p-8 rounded-2xl bg-surface border border-border hover:border-secondary/50 overflow-hidden transition-all duration-300 hover:-translate-y-1"
+              className="group relative p-8 rounded-2xl bg-bg-surface border border-border hover:border-secondary/50 overflow-hidden transition-all duration-300 hover:-translate-y-1"
             >
               {/* Gradient overlay on hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

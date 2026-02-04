@@ -56,7 +56,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-10 h-10 rounded-lg bg-surface border border-border hover:border-primary/50 flex items-center justify-center text-text-muted hover:text-text transition-all duration-200"
+                  className="w-10 h-10 rounded-lg bg-bg-surface border border-border hover:border-primary/50 flex items-center justify-center text-text-muted hover:text-text transition-all duration-200"
                   aria-label={social.label}
                 >
                   <social.icon size={18} />

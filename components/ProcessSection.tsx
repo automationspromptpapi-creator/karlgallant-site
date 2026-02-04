@@ -39,7 +39,7 @@ export default function ProcessSection() {
   return (
     <section id="process" className="relative py-24 lg:py-32 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-surface">
+      <div className="absolute inset-0 bg-bg-surface">
         <div className="absolute inset-0 grid-pattern opacity-30" />
       </div>
 
@@ -89,7 +89,7 @@ export default function ProcessSection() {
                 className="relative"
               >
                 {/* Step card */}
-                <div className="relative p-8 rounded-2xl bg-background border border-border hover:border-primary/30 transition-all duration-300 h-full">
+                <div className="relative p-8 rounded-2xl bg-bg-deep border border-border hover:border-primary/30 transition-all duration-300 h-full">
                   {/* Step number */}
                   <div className="absolute -top-4 left-8">
                     <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary text-white text-sm font-bold">
@@ -111,7 +111,7 @@ export default function ProcessSection() {
                   </p>
 
                   {/* Duration badge */}
-                  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-surface text-text-muted text-sm">
+                  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-bg-surface text-text-muted text-sm">
                     {step.duration}
                   </span>
                 </div>
@@ -123,7 +123,7 @@ export default function ProcessSection() {
                       initial={{ scale: 0 }}
                       animate={isInView ? { scale: 1 } : {}}
                       transition={{ duration: 0.3, delay: 0.6 + index * 0.15 }}
-                      className="w-8 h-8 rounded-full bg-surface border border-border flex items-center justify-center"
+                      className="w-8 h-8 rounded-full bg-bg-surface border border-border flex items-center justify-center"
                     >
                       <svg
                         className="w-4 h-4 text-primary"

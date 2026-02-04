@@ -33,7 +33,7 @@ export default function ProblemSection() {
   return (
     <section id="problem" className="relative py-24 lg:py-32 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-surface">
+      <div className="absolute inset-0 bg-bg-surface">
         <div className="absolute inset-0 dot-pattern" />
       </div>
 
@@ -77,7 +77,7 @@ export default function ProblemSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
-              className="group relative p-8 rounded-2xl bg-background border border-border hover:border-primary/50 transition-all duration-300"
+              className="group relative p-8 rounded-2xl bg-bg-deep border border-border hover:border-primary/50 transition-all duration-300"
             >
               {/* Hover glow */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
