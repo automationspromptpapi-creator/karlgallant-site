@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Colors */
+  --color-background: #0A0A0F;
+  --color-surface: #12121A;
+  --color-border: #1E1E2E;
+  --color-primary: #6A4CFF;
+  --color-secondary: #00D4FF;
+  --color-text: #FFFFFF;
+  --color-text-muted: #8B8B9E;
+
+  /* Fonts */
+  --font-heading: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-body: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* Selection */
+::selection {
+  background: rgba(106, 76, 255, 0.3);
+  color: white;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 40px rgba(106, 76, 255, 0.3);
+}
+
+.glow-secondary {
+  box-shadow: 0 0 40px rgba(0, 212, 255, 0.3);
+}
+
+/* Grid pattern overlay */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(30, 30, 46, 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 30, 46, 0.5) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Dot pattern */
+.dot-pattern {
+  background-image: radial-gradient(rgba(139, 139, 158, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
