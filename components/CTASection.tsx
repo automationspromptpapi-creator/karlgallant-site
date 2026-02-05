@@ -79,7 +79,7 @@ export default function CTASection() {
 
             {/* Secondary CTA - Systems Blueprint */}
             <motion.a
-              href="https://tally.so/r/placeholder"
+              href="https://tally.so/r/Npp7PO"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}

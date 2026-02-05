@@ -584,7 +584,7 @@ export default function BlueprintPage() {
                 </div>
 
                 <a
-                  href="https://tally.so/r/placeholder"
+                  href="https://tally.so/r/Npp7PO"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary hover:bg-primary/90 text-white font-medium rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/25 w-full sm:w-auto"
@@ -689,7 +689,7 @@ export default function BlueprintPage() {
                 than most business owners get in years of trial and error.
               </p>
               <a
-                href="https://tally.so/r/placeholder"
+                href="https://tally.so/r/Npp7PO"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 px-10 py-5 bg-primary hover:bg-primary/90 text-white text-lg font-medium rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/25"

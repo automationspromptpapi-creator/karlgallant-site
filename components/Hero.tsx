@@ -64,7 +64,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
-              href="https://tally.so/r/placeholder"
+              href="https://tally.so/r/Npp7PO"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-white font-medium rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/25 w-full sm:w-auto"

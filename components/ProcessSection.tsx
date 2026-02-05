@@ -162,7 +162,7 @@ export default function ProcessSection() {
               One-time diagnostic that pays for itself
             </p>
             <a
-              href="https://tally.so/r/placeholder"
+              href="https://tally.so/r/Npp7PO"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary hover:bg-primary/90 text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary/25"

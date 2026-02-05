@@ -47,6 +47,6 @@ OpenClaw-inspired dark theme. Defined in `app/globals.css` using Tailwind v4's `
 ## External Links (Placeholders)
 
 - Cal.com booking: `https://cal.com/karlgallant`
-- Tally form: `https://tally.so/r/placeholder`
+- Tally form: `https://tally.so/r/Npp7PO`
 - Email: `hello@karlgallant.com`
 - Production URL: `https://karlgallant-site.vercel.app`
