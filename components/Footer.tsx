@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Mail } from "lucide-react";
+import Link from "next/link";
 
 const footerLinks = [
   { label: "The Problem", href: "#problem" },
@@ -117,9 +118,14 @@ export default function Footer() {
           <p className="text-text-muted text-sm">
             &copy; 2025 Karl Gallant. All rights reserved.
           </p>
-          <p className="text-text-muted text-sm">
-            Transforming operations with intelligent systems.
-          </p>
+          <div className="flex items-center gap-6 text-text-muted text-sm">
+            <Link href="/privacy" className="hover:text-text transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="hover:text-text transition-colors">
+              SMS Terms
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

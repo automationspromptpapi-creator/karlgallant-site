@@ -136,9 +136,9 @@ export default function BlueprintPage() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-[family-name:var(--font-heading)] text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-6"
             >
-              Finally See{" "}
+              See{" "}
               <span className="gradient-text">Exactly Where</span> Your
-              Business Is Bleeding Time and Money
+              Business Is Bleeding Money
             </motion.h1>
 
             <motion.p
@@ -720,6 +720,14 @@ export default function BlueprintPage() {
               <span className="text-text-primary">Karl</span>
               <span className="gradient-text-coral"> Gallant</span>
             </Link>
+            <div className="flex items-center gap-6 text-text-muted text-sm">
+              <Link href="/privacy" className="hover:text-text transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="hover:text-text transition-colors">
+                SMS Terms
+              </Link>
+            </div>
             <p className="text-text-muted text-sm">
               &copy; 2025 Karl Gallant. All rights reserved.
             </p>
