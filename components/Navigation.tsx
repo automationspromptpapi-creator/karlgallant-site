@@ -9,6 +9,7 @@ const navLinks = [
   { href: "#solution", label: "Solution" },
   { href: "#process", label: "Process" },
   { href: "#about", label: "About" },
+  { href: "/blueprint", label: "Blueprint" },
 ];
 
 export default function Navigation() {
