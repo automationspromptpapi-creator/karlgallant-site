@@ -62,7 +62,7 @@ export default function Navigation() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href="https://cal.com/karlgallant"
+              href="https://cal.com/kg-automations"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-5 py-2.5 bg-primary hover:bg-primary/90 text-white text-sm font-medium rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-primary/25"
@@ -104,7 +104,7 @@ export default function Navigation() {
                 </a>
               ))}
               <a
-                href="https://cal.com/karlgallant"
+                href="https://cal.com/kg-automations"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full px-5 py-3 bg-primary hover:bg-primary/90 text-white text-sm font-medium rounded-full transition-all duration-200 mt-4"

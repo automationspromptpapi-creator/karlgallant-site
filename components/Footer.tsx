@@ -24,7 +24,7 @@ const socialLinks = [
   },
   {
     label: "Email",
-    href: "mailto:hello@karlgallant.com",
+    href: "mailto:automationspromptpapi@gmail.com",
     icon: Mail,
   },
 ];
@@ -93,15 +93,15 @@ export default function Footer() {
             <ul className="space-y-3 text-text-muted">
               <li>
                 <a
-                  href="mailto:hello@karlgallant.com"
+                  href="mailto:automationspromptpapi@gmail.com"
                   className="hover:text-text transition-colors duration-200"
                 >
-                  hello@karlgallant.com
+                  automationspromptpapi@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="https://cal.com/karlgallant"
+                  href="https://cal.com/kg-automations"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-text transition-colors duration-200"

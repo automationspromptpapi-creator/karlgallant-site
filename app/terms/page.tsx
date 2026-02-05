@@ -84,7 +84,7 @@ export default function TermsPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Replying <strong>STOP</strong> to any message you receive</li>
-                <li>Contacting us at <a href="mailto:hello@karlgallant.com" className="text-primary hover:text-primary/80 transition-colors">hello@karlgallant.com</a></li>
+                <li>Contacting us at <a href="mailto:automationspromptpapi@gmail.com" className="text-primary hover:text-primary/80 transition-colors">automationspromptpapi@gmail.com</a></li>
               </ul>
               <p className="mt-4">
                 After opting out, you will receive one final confirmation message. You will no longer receive SMS messages unless you opt in again.
@@ -100,7 +100,7 @@ export default function TermsPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Reply <strong>HELP</strong> to any message for support information</li>
-                <li>Email us at <a href="mailto:hello@karlgallant.com" className="text-primary hover:text-primary/80 transition-colors">hello@karlgallant.com</a></li>
+                <li>Email us at <a href="mailto:automationspromptpapi@gmail.com" className="text-primary hover:text-primary/80 transition-colors">automationspromptpapi@gmail.com</a></li>
               </ul>
             </section>
 
@@ -145,8 +145,8 @@ export default function TermsPage() {
               <p className="mt-4">
                 <strong>Karl Gallant</strong><br />
                 Email:{" "}
-                <a href="mailto:hello@karlgallant.com" className="text-primary hover:text-primary/80 transition-colors">
-                  hello@karlgallant.com
+                <a href="mailto:automationspromptpapi@gmail.com" className="text-primary hover:text-primary/80 transition-colors">
+                  automationspromptpapi@gmail.com
                 </a>
               </p>
             </section>

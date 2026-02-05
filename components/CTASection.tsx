@@ -45,7 +45,7 @@ export default function CTASection() {
           <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {/* Primary CTA - Book a Call */}
             <motion.a
-              href="https://cal.com/karlgallant"
+              href="https://cal.com/kg-automations"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}

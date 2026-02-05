@@ -137,8 +137,8 @@ export default function PrivacyPage() {
                 If you have any questions about this privacy policy or our data practices, please contact us at:
               </p>
               <p className="mt-4">
-                <a href="mailto:hello@karlgallant.com" className="text-primary hover:text-primary/80 transition-colors">
-                  hello@karlgallant.com
+                <a href="mailto:automationspromptpapi@gmail.com" className="text-primary hover:text-primary/80 transition-colors">
+                  automationspromptpapi@gmail.com
                 </a>
               </p>
             </section>
