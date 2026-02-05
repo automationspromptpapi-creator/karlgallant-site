@@ -85,7 +85,7 @@ export default function CTASection() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="group relative p-8 rounded-2xl bg-bg-surface border border-border hover:border-secondary/50 overflow-hidden transition-all duration-300 hover:-translate-y-1"
+              className="group relative p-8 rounded-2xl bg-bg-surface border border-border card-hover overflow-hidden"
             >
               {/* Gradient overlay on hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

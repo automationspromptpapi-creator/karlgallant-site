@@ -93,7 +93,7 @@ export default function CredibilitySection() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
-                className="group p-6 rounded-xl bg-bg-surface border border-border hover:border-secondary/30 transition-all duration-300"
+                className="group p-6 rounded-xl bg-bg-surface border border-border card-hover"
               >
                 <div className="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center mb-4 group-hover:bg-secondary/20 transition-colors">
                   <cred.icon className="w-5 h-5 text-secondary" />

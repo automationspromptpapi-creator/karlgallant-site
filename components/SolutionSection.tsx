@@ -82,7 +82,7 @@ export default function SolutionSection() {
               transition={{ duration: 0.6, delay: 0.3 + index * 0.15 }}
               className="group relative"
             >
-              <div className="relative flex flex-col lg:flex-row items-start lg:items-center gap-6 lg:gap-12 p-8 lg:p-10 rounded-2xl bg-bg-surface border border-border hover:border-primary/30 transition-all duration-300">
+              <div className="relative flex flex-col lg:flex-row items-start lg:items-center gap-6 lg:gap-12 p-8 lg:p-10 rounded-2xl bg-bg-surface border border-border card-hover">
                 {/* Icon */}
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center group-hover:from-primary/30 group-hover:to-secondary/30 transition-all duration-300">

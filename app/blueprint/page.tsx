@@ -200,7 +200,7 @@ export default function BlueprintPage() {
             <div className="space-y-8">
               <AnimatedSection
                 delay={0.1}
-                className="p-6 lg:p-8 rounded-2xl bg-bg-deep border border-border"
+                className="p-6 lg:p-8 rounded-2xl bg-bg-deep border border-border card-hover"
               >
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -222,7 +222,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.2}
-                className="p-6 lg:p-8 rounded-2xl bg-bg-deep border border-border"
+                className="p-6 lg:p-8 rounded-2xl bg-bg-deep border border-border card-hover"
               >
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -244,7 +244,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.3}
-                className="p-6 lg:p-8 rounded-2xl bg-bg-deep border border-border"
+                className="p-6 lg:p-8 rounded-2xl bg-bg-deep border border-border card-hover"
               >
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -292,7 +292,7 @@ export default function BlueprintPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <AnimatedSection
                 delay={0.1}
-                className="p-6 rounded-xl bg-bg-surface border border-secondary/20"
+                className="p-6 rounded-xl bg-bg-surface border border-secondary/20 card-hover"
               >
                 <Check className="w-8 h-8 text-secondary mb-4" />
                 <p className="text-text-primary font-medium">
@@ -303,7 +303,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.15}
-                className="p-6 rounded-xl bg-bg-surface border border-secondary/20"
+                className="p-6 rounded-xl bg-bg-surface border border-secondary/20 card-hover"
               >
                 <Check className="w-8 h-8 text-secondary mb-4" />
                 <p className="text-text-primary font-medium">
@@ -314,7 +314,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.2}
-                className="p-6 rounded-xl bg-bg-surface border border-secondary/20"
+                className="p-6 rounded-xl bg-bg-surface border border-secondary/20 card-hover"
               >
                 <Check className="w-8 h-8 text-secondary mb-4" />
                 <p className="text-text-primary font-medium">
@@ -325,7 +325,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.25}
-                className="p-6 rounded-xl bg-bg-surface border border-secondary/20"
+                className="p-6 rounded-xl bg-bg-surface border border-secondary/20 card-hover"
               >
                 <Check className="w-8 h-8 text-secondary mb-4" />
                 <p className="text-text-primary font-medium">
@@ -369,7 +369,7 @@ export default function BlueprintPage() {
 
             <AnimatedSection
               delay={0.1}
-              className="p-8 lg:p-12 rounded-2xl bg-bg-deep border border-border"
+              className="p-8 lg:p-12 rounded-2xl bg-bg-deep border border-border card-hover"
             >
               <p className="text-lg text-text-secondary leading-relaxed mb-6">
                 Most businesses try to solve operational problems by throwing
@@ -410,7 +410,7 @@ export default function BlueprintPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <AnimatedSection
                 delay={0.1}
-                className="p-8 rounded-2xl bg-bg-surface border border-border group hover:border-primary/30 transition-colors"
+                className="p-8 rounded-2xl bg-bg-surface border border-border group card-hover"
               >
                 <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <MessageSquare className="w-7 h-7 text-primary" />
@@ -428,7 +428,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.15}
-                className="p-8 rounded-2xl bg-bg-surface border border-border group hover:border-primary/30 transition-colors"
+                className="p-8 rounded-2xl bg-bg-surface border border-border group card-hover"
               >
                 <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <Map className="w-7 h-7 text-primary" />
@@ -445,7 +445,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.2}
-                className="p-8 rounded-2xl bg-bg-surface border border-border group hover:border-primary/30 transition-colors"
+                className="p-8 rounded-2xl bg-bg-surface border border-border group card-hover"
               >
                 <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <Zap className="w-7 h-7 text-primary" />
@@ -462,7 +462,7 @@ export default function BlueprintPage() {
 
               <AnimatedSection
                 delay={0.25}
-                className="p-8 rounded-2xl bg-bg-surface border border-border group hover:border-primary/30 transition-colors"
+                className="p-8 rounded-2xl bg-bg-surface border border-border group card-hover"
               >
                 <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <FileText className="w-7 h-7 text-primary" />
@@ -497,7 +497,7 @@ export default function BlueprintPage() {
               {/* This is for */}
               <AnimatedSection
                 delay={0.1}
-                className="p-8 rounded-2xl bg-bg-deep border border-secondary/30"
+                className="p-8 rounded-2xl bg-bg-deep border border-secondary/30 card-hover"
               >
                 <h3 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-6 text-secondary">
                   This is for you if...
@@ -521,7 +521,7 @@ export default function BlueprintPage() {
               {/* This is NOT for */}
               <AnimatedSection
                 delay={0.15}
-                className="p-8 rounded-2xl bg-bg-deep border border-primary/30"
+                className="p-8 rounded-2xl bg-bg-deep border border-primary/30 card-hover"
               >
                 <h3 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-6 text-primary">
                   This is NOT for you if...
@@ -556,7 +556,7 @@ export default function BlueprintPage() {
 
           <div className="relative z-10 max-w-3xl mx-auto px-6 lg:px-8">
             <AnimatedSection className="text-center">
-              <div className="p-8 lg:p-12 rounded-2xl bg-bg-surface border border-border">
+              <div className="p-8 lg:p-12 rounded-2xl bg-bg-surface border border-border card-hover">
                 <span className="inline-block text-secondary text-sm font-medium tracking-wider uppercase mb-4">
                   The Investment
                 </span>
@@ -620,7 +620,7 @@ export default function BlueprintPage() {
 
             <AnimatedSection
               delay={0.1}
-              className="bg-bg-deep rounded-2xl border border-border p-6 lg:p-8"
+              className="bg-bg-deep rounded-2xl border border-border p-6 lg:p-8 card-hover"
             >
               <FAQItem
                 question="What happens after I purchase?"
@@ -656,7 +656,7 @@ export default function BlueprintPage() {
 
           <div className="relative z-10 max-w-3xl mx-auto px-6 lg:px-8 text-center">
             <AnimatedSection>
-              <div className="p-8 lg:p-12 rounded-2xl bg-bg-surface border border-secondary/30">
+              <div className="p-8 lg:p-12 rounded-2xl bg-bg-surface border border-secondary/30 card-hover">
                 <Shield className="w-12 h-12 text-secondary mx-auto mb-6" />
                 <h3 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
                   The &quot;Clarity or Free&quot; Guarantee

@@ -77,7 +77,7 @@ export default function ProblemSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
-              className="group relative p-8 rounded-2xl bg-bg-deep border border-border hover:border-primary/50 transition-all duration-300"
+              className="group relative p-8 rounded-2xl bg-bg-deep border border-border card-hover"
             >
               {/* Hover glow */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

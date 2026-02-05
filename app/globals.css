@@ -109,6 +109,17 @@ body {
   box-shadow: 0 0 40px rgba(255, 77, 77, 0.3);
 }
 
+/* Card hover effect - OpenClaw inspired */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  border-color: var(--color-cyan-bright) !important;
+  box-shadow: 0 0 30px rgba(0, 229, 204, 0.15), 0 0 60px rgba(0, 229, 204, 0.1);
+  transform: translateY(-2px) scale(1.02);
+}
+
 /* Grid pattern overlay - more subtle */
 .grid-pattern {
   background-image:

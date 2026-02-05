@@ -89,7 +89,7 @@ export default function ProcessSection() {
                 className="relative"
               >
                 {/* Step card */}
-                <div className="relative p-8 rounded-2xl bg-bg-deep border border-border hover:border-primary/30 transition-all duration-300 h-full">
+                <div className="relative p-8 rounded-2xl bg-bg-deep border border-border card-hover h-full">
                   {/* Step number */}
                   <div className="absolute -top-4 left-8">
                     <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary text-white text-sm font-bold">
